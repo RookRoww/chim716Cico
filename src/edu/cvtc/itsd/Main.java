@@ -320,7 +320,8 @@ public class Main {
     frame.getContentPane().add(deck, BorderLayout.CENTER);
 
     // Module 2 ticket: Add version number.
-    JLabel labelMeta = new JLabel("CiCo v" + VERSION);
+    JLabel labelMeta = new JLabel("CiCo v" + VERSION, JLabel.CENTER);
+    labelMeta.setHorizontalAlignment(SwingConstants.CENTER);
     labelMeta.setOpaque(true);
     labelMeta.setBackground(Color.darkGray);
     labelMeta.setForeground(Color.white);
